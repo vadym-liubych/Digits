@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Digits | Homepage</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link
+      rel="shortcut icon"
+      href="./images/icon.png"
+      type="image/x-icon"
+    >
     <script src="scripts/main.js" defer></script>
   </head>
-  <body>
-    <h1 class="title">Hello Mate Academy</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
+  <body class="page">
+    <header class="header">
+      <div class="header__content">
+        <div class="header__top">
+          <a href="#">
+            <img
+              src="./images/logo.png"
+              alt="digits logo"
+              class="header__logo"
+            >
+          </a>
+          <div class="header__menu-toggler"></div>
+          <nav class="menu nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--active">Homepages</a>
+              </li>
+              <li class="nav__item">
+                <a href="#products" class="nav__link">Products</a>
+              </li>
+              <li class="nav__item">
+                <a href="#company" class="nav__link nav__link--list">Company</a>
+              </li>
+              <li class="nav__item">
+                <a href="#pricing" class="nav__link">Pricing</a>
+              </li>
+              <li class="nav__item">
+                <a href="#blog" class="nav__link">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <a href="tel: +00 123456 789" class="header__contacts-number">
+              +00 123456 789
+            </a>
+            <a
+              href="tel: +00 123456 789"
+              class="header__contacts-button header__contacts-button--phone"
+            >
+              Contact us
+            </a>
+            <a href="tel: +00 123456 789" class="header__contacts-phone"></a>
+          </div>
+        </div>
+        <!-- <h1 class="header__title">Digits</h1> -->
+      </div>
+    </header>
   </body>
 </html>
