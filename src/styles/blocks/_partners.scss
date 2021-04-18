@@ -1,4 +1,10 @@
 .partners {
+  margin-bottom: 32px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 102px;
+  }
+
   &__content {
     $headerContentPaddingX: 10px;
     margin: 0 auto;
