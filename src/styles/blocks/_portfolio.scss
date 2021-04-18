@@ -2,13 +2,16 @@
   background-color: #fff9ea;
   text-align: center;
   padding-top: 59px;
+  margin-bottom: 50px;
 
   @media (min-width: 768px) {
     padding-top: 89px;
+    margin-bottom: 100px;
   }
 
   @media (min-width: 1024px) {
     padding-top: 139px;
+    margin-bottom: 150px;
   }
 
   &__content {
