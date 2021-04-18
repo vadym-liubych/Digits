@@ -1,5 +1,13 @@
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-bottom: 90px;
+  }
 
   &__content {
     $headerContentPaddingX: 10px;
