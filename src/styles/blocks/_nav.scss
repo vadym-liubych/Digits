@@ -42,6 +42,7 @@
     line-height: 22px;
     font-size: 22px;
     color: $white;
+    transition: font 0.4s;
 
     &--list {
       margin-right: 10px;
@@ -52,30 +53,30 @@
           content: "";
           position: fixed;
           top: 47%;
-          right: 36%;
+          right: 34%;
           height: 9px;
           width: 9px;
           background-image: url("../images/icons/arrow.svg");
           background-repeat: no-repeat;
 
           @media (min-width: 820px) {
-            right: 38%;
+            right: 35%;
           }
 
           @media (min-width: 900px) {
-            right: 39%;
+            right: 38%;
           }
 
           @media (min-width: 1024px) {
-            right: 33%;
-          }
-
-          @media (min-width: 1070px) {
-            right: 34%;
+            right: 32%;
           }
 
           @media (min-width: 1120px) {
-            right: 35%;
+            right: 33%;
+          }
+
+          @media (min-width: 1200px) {
+            right: 34%;
           }
         }
       }
@@ -87,8 +88,8 @@
       color: $white;
 
       @media (min-width: 768px) {
-        border-bottom: 1px solid #f00;
-        color: $halyardDisplay;
+        border-bottom: 1px solid tomato;
+        color: tomato;
       }
     }
 

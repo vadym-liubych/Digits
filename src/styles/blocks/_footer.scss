@@ -1,6 +1,6 @@
 .footer {
   &__content {
-    $headerContentPaddingX: 10px;
+    $headerContentPaddingX: 40px;
     align-items: center;
     margin: 0 auto;
     max-width: 1120px + 2 * $headerContentPaddingX;
@@ -125,6 +125,15 @@
     &-copyright {
       color: rgba(69, 88, 128, 0.5);
       margin-bottom: 20px;
+    }
+
+    &-links {
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 345px) {
+        flex-direction: row;
+      }
     }
 
     &-link {
