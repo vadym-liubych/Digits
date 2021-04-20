@@ -10,7 +10,7 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #0075ff;
+  background-color: $button;
   transform: translateX(-100%);
   transition: transform 0.5s ease-in-out;
 
@@ -31,7 +31,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #f2f2f2;
 
   &--intro {
     background: linear-gradient(
@@ -39,10 +38,6 @@
       rgba(242, 249, 255, 0.12) 0%,
       #f2f9ff 100%
     );
-  }
-
-  @media (min-width: 768px) {
-    background: #fff;
   }
 
   &__content {
